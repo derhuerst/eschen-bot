@@ -17,7 +17,9 @@ const stoppedMsg = `\
 Okay, Message angekommen.`
 const helpMsg = `\
 Dieser Bot schreibt dir, wenn es im Eschenbräu ein neues Bier gibt.
-Schicke \`/start\`, um ihn zu aktivieren, und \`/stop\` um ihn zu stoppen.`
+Schicke \`/start\`, um ihn zu aktivieren, und \`/stop\` um ihn zu stoppen.
+
+> Wir befinden uns im 3. Jahrtausend n.Chr. In ganz Germania herrschen Bierriesen über den Durst des Volkes. In ganz Germania? Nein! Eine von einem unbeugsamen Braumeister betriebene Brauerei hört nicht auf, dem Einheitsgeschmack der Bierriesen Widerstand zu leisten. In einem kleinen Keller in Wedding braut er nach geheimen Rezepten Sud für Sud Bierspezialitäten, die dem Biergenießer enormes Wohlbefinden bescheren.`
 const errMsg = `\
 Shit! Irgendwas stimmt hier nicht. Bitte probier das noch mal.`
 const beerMsg = (beer) => `\

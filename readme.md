@@ -1,6 +1,6 @@
 # eschen-bot
 
-**A Telegram bot for the [Eschenbräu beer garden](http://www.eschenbraeu.de).**
+[`@eschenbot`](https://telegram.me/eschenbot), **a Telegram bot for the [Eschenbräu beer garden](http://www.eschenbraeu.de).**
 
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/eschen-bot.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
