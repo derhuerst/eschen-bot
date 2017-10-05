@@ -9,14 +9,16 @@
 ## Installing
 
 ```shell
-todo
+git clone https://github.com/derhuerst/eschen-bot.git
+cd eschen-bot
+npm install --production
 ```
 
 
 ## Usage
 
-```js
-todo
+```shell
+env TOKEN=your-telegram-api-token node index.js
 ```
 
 
