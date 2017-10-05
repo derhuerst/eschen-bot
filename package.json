@@ -19,5 +19,7 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"moment-timezone": "^0.5.13",
+		"node-telegram-bot-api": "^0.28.0"
 	}
 }
