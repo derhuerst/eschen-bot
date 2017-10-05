@@ -1,0 +1,23 @@
+{
+	"private": true,
+	"name": "eschen-bot",
+	"description": "A Telegram bot for the Eschenbräu beer garden.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"keywords": [
+		"eschenbot",
+		"eschenbräu",
+		"beer garden",
+		"telegram"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/eschen-bot",
+	"repository": "derhuerst/eschen-bot",
+	"bugs": "https://github.com/derhuerst/eschen-bot/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	}
+}
