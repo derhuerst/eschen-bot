@@ -2,6 +2,7 @@
 
 const Bot = require('node-telegram-bot-api')
 
+const beers = require('./lib/beers.json')
 const watching = require('./lib/watching')
 const onNewBeer = require('./lib/on-new-beer')
 
@@ -22,8 +23,11 @@ Schicke \`/start\`, um ihn zu aktivieren, und \`/stop\` um ihn zu stoppen.
 > Wir befinden uns im 3. Jahrtausend n.Chr. In ganz Germania herrschen Bierriesen über den Durst des Volkes. In ganz Germania? Nein! Eine von einem unbeugsamen Braumeister betriebene Brauerei hört nicht auf, dem Einheitsgeschmack der Bierriesen Widerstand zu leisten. In einem kleinen Keller in Wedding braut er nach geheimen Rezepten Sud für Sud Bierspezialitäten, die dem Biergenießer enormes Wohlbefinden bescheren.`
 const errMsg = `\
 Shit! Irgendwas stimmt hier nicht. Bitte probier das noch mal.`
+
 const beerMsg = (beer) => `\
 Ab heute kannst du im Eschenbräu ein *${beer.name}* genießen! 🍻`
+
+const listMsg = beers.map(b => `\`${b.date}\` ${b.name}\n`).join('')
 
 const bot = new Bot(TOKEN, {polling: true})
 const withMarkdown = {parse_mode: 'Markdown'}
@@ -32,7 +36,9 @@ bot.on('message', (msg) => {
 	if (!msg.text) return
 	const user = msg.chat.id
 
-	if (msg.text.slice(0, 6).toLowerCase() === '/start') {
+	if (msg.text.slice(0, 5).toLowerCase() === '/list') {
+		bot.sendMessage(user, listMsg, withMarkdown)
+	} else if (msg.text.slice(0, 6).toLowerCase() === '/start') {
 		watching.add(user, (err) => {
 			if (err) bot.sendMessage(user, errMsg, withMarkdown)
 			else bot.sendMessage(user, startedMsg, withMarkdown)
