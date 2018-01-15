@@ -20,24 +20,125 @@
 	{"name": "Weizen Doppelbock", "date": "2017-11-03"},
 	{"name": "Scotty", "date": "2017-11-10"},
 	{"name": "Alter Schwede", "date": "2017-12-01"},
-	{"name": "Dunkler Bock", "date": "2018-01-12"},
-	{"name": "Rauchbier", "date": "2018-01-26"},
-	{"name": "Weddinator", "date": "2018-02-16"},
-	{"name": "Böhmisch Pilsener", "date": "2018-03-03"},
-	{"name": "Black Mamba", "date": "2018-03-16"},
-	{"name": "O.P.A.", "date": "2018-04-06"},
-	{"name": "Maibock", "date": "2018-04-27"},
-	{"name": "Bayrisch Hell", "date": "2018-05-18"},
-	{"name": "Weizenbock", "date": "2018-06-08"},
-	{"name": "Sommer Gold", "date": "2018-06-22"},
-	{"name": "Hopfen Perle", "date": "2018-07-13"},
-	{"name": "Red Ale", "date": "2018-07-27"},
-	{"name": "Amber Rocket", "date": "2018-08-10"},
-	{"name": "Baltic Porter", "date": "2018-08-31"},
-	{"name": "Märzen", "date": "2018-09-14"},
-	{"name": "Panke Gold 2.0", "date": "2018-10-05"},
-	{"name": "Böhmisch Keller", "date": "2018-10-26"},
-	{"name": "Belgisch Tripel", "date": "2018-11-02"},
-	{"name": "Wedding Crossover", "date": "2018-11-09"},
-	{"name": "Alter Schwede", "date": "2018-11-30"}
+	{
+		"name": "Dunkler Bock",
+		"date": "2018-01-12",
+		"description": "Craftvoll, mild gehopft und fast schwarz – Nahrhaftes für die kalten Tage.",
+		"gravity": 16,
+		"alcohol": 6.3
+	}, {
+		"name": "Rauchbier",
+		"date": "2018-01-26",
+		"description": "Über Buchenholzrauch abgedarrtes Malz, frisch aus Franken. Bernsteinfarben im Glas – ein Gedicht.",
+		"gravity": 12.9,
+		"alcohol": 5.2
+	}, {
+		"name": "Weddinator",
+		"date": "2018-02-16",
+		"description": "Rubinrot, bitter und doppelt stark! Eine Delikatesse zum Genießen.",
+		"gravity": 19,
+		"alcohol": 8
+	}, {
+		"name": "Böhmisch Pilsener",
+		"date": "2018-03-03",
+		"description": "Ein goldenes Pilsener mit Saazer Hopfen in Hülle und Fülle.",
+		"gravity": 12,
+		"alcohol": 5
+	}, {
+		"name": "Black Mamba",
+		"date": "2018-03-16",
+		"description": "Ein Schwarzbier mit viel Kalt- hopfung und dem Biß im Abgang.",
+		"gravity": 11.9,
+		"alcohol": 5
+	}, {
+		"name": "O.P.A.",
+		"date": "2018-04-06",
+		"description": "Erst spritzig frisch, dann der Hopfenorgasmus – ein Erlebnis.",
+		"gravity": 14.8,
+		"alcohol": 6
+	}, {
+		"name": "Maibock",
+		"date": "2018-04-27",
+		"description": "Zum Tag der Arbeit ein Bier zum chillen.",
+		"gravity": 16,
+		"alcohol": 6.1
+	}, {
+		"name": "Bayrisch Hell",
+		"date": "2018-05-18",
+		"description": "Im Maßkrug mit Weißwürsten der ideale Begleiter zum in den Sommer Süffeln.",
+		"gravity": "13,5",
+		"alcohol": 5.4
+	}, {
+		"name": "Weizenbock",
+		"date": "2018-06-08",
+		"description": "Allet Banane? Mit diesem Weizenbock ja!",
+		"gravity": "16,0",
+		"alcohol": 6.0
+	}, {
+		"name": "Sommer Gold",
+		"date": "2018-06-22",
+		"description": "Ein schlanker, fruchtiger Wegbegleiter durch den Abend im Garten.",
+		"gravity": "10,9",
+		"alcohol": 4.5
+	}, {
+		"name": "Hopfen Perle",
+		"date": "2018-07-13",
+		"description": "Intensives Pils Erlebnis: hoch- vergoren, sehr herb und etwas schlanker als das Pils, ein Durstlöscher mit 10,9% Stammwürze.",
+		"gravity": 10.9,
+		"alcohol": 4.5
+	}, {
+		"name": "Red Ale",
+		"date": "2018-07-27",
+		"description": "Kleene Keule vom Roten Wedding: süf g, fruchtig, geschmeidig im Abgang. Ein kantenfreies Malzbonbon.",
+		"gravity": 13.0,
+		"alcohol": 6
+	}, {
+		"name": "Amber Rocket",
+		"date": "2018-08-10",
+		"description": "KiezKingKnucklehead Stout – Ein amberfarbenes Stout mit Roggenmalz und fundamentalem Hopfenorchester im Hintergrund.",
+		"gravity": 13.9,
+		"alcohol": 5.5
+	}, {
+		"name": "Baltic Porter",
+		"date": "2018-08-31",
+		"description": "Für harte Hafenarbeiter, die die Ladung von Koggen löschen - und für Genießer, die harten Stoff abkönnen.",
+		"gravity": 16,
+		"alcohol": 6
+	}, {
+		"name": "Märzen",
+		"date": "2018-09-14",
+		"description": "Für harte Hafenarbeiter, die die Ladung von Koggen löschen - und für Genießer, die harten Stoff abkönnen.",
+		"gravity": 16,
+		"alcohol": 6
+	}, {
+		"name": "Panke Gold 2.0",
+		"date": "2018-10-05",
+		"description": "Süffiger und kräftiger als das Original, mit der doppelten Menge CITRA-Hopfen gewürzt: eine Aromabombe.",
+		"gravity": 13,
+		"alcohol": 5.6
+	}, {
+		"name": "Böhmisch Keller",
+		"date": "2018-10-26",
+		"description": "Schwejk würde es lieben: süf g und mild gehopft mit Saazer Hopfen.",
+		"gravity": 13.6,
+		"alcohol": 5.5
+	}, {
+		"name": "Belgisch Tripel",
+		"date": "2018-11-02",
+		"description": "Eine Entdeckungsreise ins Reich der Starkbiere, mit drei Hefestämmen zweifach vergoren, komplex und tiefgründig.",
+		"gravity": 18,
+		"alcohol": 8
+	}, {
+		"name": "Wedding Crossover",
+		"date": "2018-11-09",
+		"description": "Eine Kreuzung aus zwei Biersorten, ein Biercuvee! Ein Gedenken an die Müller und ihre 24 Mühlen, die im Kiez sich einst drehten.",
+		"gravity": 12,
+		"alcohol": 5
+	}, {
+		"name": "Alter Schwede",
+		"date": "2018-11-30",
+		"description": "Ein helles hochvergorenes Starkbier mit dominantem Hopfen.",
+		"gravity": 16,
+		"alcohol": 6.5
+	}
 ]

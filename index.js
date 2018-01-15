@@ -25,7 +25,12 @@ const errMsg = `\
 Shit! Irgendwas stimmt hier nicht. Bitte probier das noch mal.`
 
 const beerMsg = (beer) => `\
-Ab heute kannst du im Eschenbräu ein *${beer.name}* genießen! 🍻`
+Ab heute kannst du im Eschenbräu ein *${beer.name}* genießen! 🍻
+
+> ${description}
+
+${gravity} Stammwürze
+${alcohol}% Alkohol`
 
 const listMsg = beers.map(b => `\`${b.date}\` ${b.name}\n`).join('')
 
