@@ -19,9 +19,9 @@
 		"node": ">=6"
 	},
 	"dependencies": {
-		"level": "^1.7.0",
+		"level": "^3.0.0",
 		"long-timeout": "^0.1.1",
 		"moment-timezone": "^0.5.13",
-		"node-telegram-bot-api": "^0.28.0"
+		"node-telegram-bot-api": "^0.30.0"
 	}
 }

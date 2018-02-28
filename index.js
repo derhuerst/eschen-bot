@@ -1,10 +1,21 @@
 'use strict'
 
+const {createHash} = require('crypto')
 const Bot = require('node-telegram-bot-api')
 
 const beers = require('./lib/beers.json')
 const watching = require('./lib/watching')
 const onNewBeer = require('./lib/on-new-beer')
+
+const sha1 = (str) => {
+	const hash = createHash('sha1')
+	hash.update(str)
+	return hash.digest('hex')
+}
+
+const log = (msg) => {
+	console.info(sha1(msg.chat.id + '').slice(0, 16), msg.text)
+}
 
 const TOKEN = process.env.TOKEN
 if (!TOKEN) {
@@ -39,6 +50,7 @@ const withMarkdown = {parse_mode: 'Markdown'}
 
 bot.on('message', (msg) => {
 	if (!msg.text) return
+	log(msg)
 	const user = msg.chat.id
 
 	if (msg.text.slice(0, 5).toLowerCase() === '/list') {
@@ -56,6 +68,10 @@ bot.on('message', (msg) => {
 	} else {
 		bot.sendMessage(user, helpMsg, withMarkdown)
 	}
+})
+
+bot.on('polling_error', (err) => {
+	console.error(err)
 })
 
 onNewBeer((beer) => {
