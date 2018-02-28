@@ -47,7 +47,7 @@
 	}, {
 		"name": "Black Mamba",
 		"date": "2018-03-16",
-		"description": "Ein Schwarzbier mit viel Kalt- hopfung und dem Biß im Abgang.",
+		"description": "Ein Schwarzbier mit viel Kalthopfung und dem Biß im Abgang.",
 		"gravity": 11.9,
 		"alcohol": 5
 	}, {
@@ -65,7 +65,7 @@
 	}, {
 		"name": "Bayrisch Hell",
 		"date": "2018-05-18",
-		"description": "Im Maßkrug mit Weißwürsten der ideale Begleiter zum in den Sommer Süffeln.",
+		"description": "Im Maßkrug mit Weißwürsten der ideale Begleiter zum in den Sommer Süffeln.",
 		"gravity": "13,5",
 		"alcohol": 5.4
 	}, {
@@ -83,13 +83,13 @@
 	}, {
 		"name": "Hopfen Perle",
 		"date": "2018-07-13",
-		"description": "Intensives Pils Erlebnis: hoch- vergoren, sehr herb und etwas schlanker als das Pils, ein Durstlöscher mit 10,9% Stammwürze.",
+		"description": "Intensives Pils Erlebnis: hochvergoren, sehr herb und etwas schlanker als das Pils, ein Durstlöscher mit 10,9% Stammwürze.",
 		"gravity": 10.9,
 		"alcohol": 4.5
 	}, {
 		"name": "Red Ale",
 		"date": "2018-07-27",
-		"description": "Kleene Keule vom Roten Wedding: süf g, fruchtig, geschmeidig im Abgang. Ein kantenfreies Malzbonbon.",
+		"description": "Kleene Keule vom Roten Wedding: süffig, fruchtig, geschmeidig im Abgang. Ein kantenfreies Malzbonbon.",
 		"gravity": 13.0,
 		"alcohol": 6
 	}, {
@@ -107,9 +107,9 @@
 	}, {
 		"name": "Märzen",
 		"date": "2018-09-14",
-		"description": "Für harte Hafenarbeiter, die die Ladung von Koggen löschen - und für Genießer, die harten Stoff abkönnen.",
-		"gravity": 16,
-		"alcohol": 6
+		"description": "Bernsteinfarbenes Festbier, zu genießen im Maßkrig mit Brezel & Weißwurst.",
+		"gravity": 13.5,
+		"alcohol": 5.5
 	}, {
 		"name": "Panke Gold 2.0",
 		"date": "2018-10-05",
@@ -119,7 +119,7 @@
 	}, {
 		"name": "Böhmisch Keller",
 		"date": "2018-10-26",
-		"description": "Schwejk würde es lieben: süf g und mild gehopft mit Saazer Hopfen.",
+		"description": "Schwejk würde es lieben: süffig und mild gehopft mit Saazer Hopfen.",
 		"gravity": 13.6,
 		"alcohol": 5.5
 	}, {
