@@ -19,9 +19,12 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"js-string-escape": "^1.0.1",
 		"level": "^3.0.0",
 		"long-timeout": "^0.1.1",
 		"moment-timezone": "^0.5.13",
-		"node-telegram-bot-api": "^0.30.0"
+		"pify": "^3.0.0",
+		"telegraf": "^3.20.0",
+		"through2": "^2.0.3"
 	}
 }
