@@ -39,13 +39,14 @@ Schicke \`/start\`, um ihn zu aktivieren, und \`/stop\` um ihn zu stoppen.
 const errMsg = `\
 Shit! Irgendwas stimmt hier nicht. Bitte probier das noch mal.`
 
-const beerMsg = (beer) => `\
-Ab heute kannst du im Eschenbräu ein *${beer.name}* genießen! 🍻
-
-> ${beer.description}
-
-${beer.gravity} Stammwürze
-${beer.alcohol}% Alkohol`
+const beerMsg = (beer) => {
+	let str = `\
+Ab heute kannst du im Eschenbräu ein *${beer.name}* genießen! 🍻\n`
+	if (beer.description) str += `\n> ${beer.description}\n`
+	if (beer.gravity) str += `\n${beer.gravity} Stammwürze`
+	if (beer.alcohol) str += `\n${beer.alcohol}% Alkohol`
+	return str
+}
 
 const listMsg = beers.map(b => `\`${b.date}\` ${b.name}\n`).join('')
 
