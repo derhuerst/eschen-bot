@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"js-string-escape": "^1.0.1",
-		"level": "^3.0.0",
+		"level": "^4.0.0",
 		"long-timeout": "^0.1.1",
 		"moment-timezone": "^0.5.13",
 		"pify": "^3.0.0",
