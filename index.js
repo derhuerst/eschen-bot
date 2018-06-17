@@ -51,6 +51,9 @@ Ab heute kannst du im Eschenbräu ein *${beer.name}* genießen! 🍻\n`
 const listMsg = beers.map(b => `\`${b.date}\` ${b.name}\n`).join('')
 
 const bot = new Bot(TOKEN)
+bot.telegram.getMe().then(({username}) => {
+	bot.options.username = username
+})
 
 bot.use(async (ctx, next) => {
 	if (!ctx.chat || !ctx.chat.id) return null
