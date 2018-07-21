@@ -24,7 +24,6 @@
 		"long-timeout": "^0.1.1",
 		"moment-timezone": "^0.5.13",
 		"pify": "^3.0.0",
-		"telegraf": "^3.20.0",
-		"through2": "^2.0.3"
+		"telegraf": "^3.20.0"
 	}
 }

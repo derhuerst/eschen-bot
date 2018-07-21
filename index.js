@@ -4,7 +4,7 @@ const {createHash} = require('crypto')
 const Bot = require('telegraf')
 const url = require('url')
 const escape = require('js-string-escape')
-const through = require('through2')
+const {Writable} = require('stream')
 
 const beers = require('./lib/beers.json')
 const watching = require('./lib/watching')
@@ -103,12 +103,16 @@ onNewBeer((beer) => {
 	const msg = beerMsg(beer)
 	let receivers = 0
 
-	watching.all()
-	.pipe(through.obj((user, _, cb) => {
+	const write = (user, _, cb) => {
 		receivers++
 		bot.telegram.sendMessage(user, msg, {parse_mode: 'Markdown'})
-		.then(() => cb())
+		.then(() => cb(null))
 		.catch(cb)
+	}
+	watching.all()
+	.pipe(new Writable({
+		objectMode: true,
+		write
 	}))
 	.once('finish', () => {
 		console.info(`Notified ${receivers} people about ${beer.name}.`)
