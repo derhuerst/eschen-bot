@@ -140,5 +140,117 @@
 		"description": "Ein helles hochvergorenes Starkbier mit dominantem Hopfen.",
 		"gravity": 16,
 		"alcohol": 6.5
+	},
+	{
+		"name": "Dunkler Bock",
+		"date": "2019-01-11",
+		"description": "Craftvoll, mild gehopft und fast schwarz – Nahrhaftes für die kalten Tage.",
+		"gravity": 16,
+		"alcohol": 6.3
+	}, {
+		"name": "Rauchbier",
+		"date": "2019-01-25",
+		"description": "Über Buchenholzrauch abgedarrtes Malz, frisch aus Franken. Bernsteinfarben im Glas – ein Gedicht.",
+		"gravity": 12.9,
+		"alcohol": 5.2
+	}, {
+		"name": "Weddinator",
+		"date": "2019-02-15",
+		"description": "Rubinrot, bitter und doppelt stark! Eine Delikatesse zum Genießen.",
+		"gravity": 19,
+		"alcohol": 8
+	}, {
+		"name": "Böhmisch Pilsener",
+		"date": "2019-03-01",
+		"description": "Ein goldenes Pilsener mit Saazer Hopfen in Hülle und Fülle.",
+		"gravity": 12,
+		"alcohol": 5
+	}, {
+		"name": "Black Mamba",
+		"date": "2019-03-15",
+		"description": "Ein Schwarzbier mit viel Kalthopfung und dem Biß im Abgang.",
+		"gravity": 11.9,
+		"alcohol": 5
+	}, {
+		"name": "O.P.A.",
+		"date": "2019-04-05",
+		"description": "Erst spritzig frisch, dann der Hopfenorgasmus – ein Erlebnis.",
+		"gravity": 14.8,
+		"alcohol": 6
+	}, {
+		"name": "Maibock",
+		"date": "2019-04-26",
+		"description": "Zum Tag der Arbeit ein Bier zum chillen.",
+		"gravity": 16,
+		"alcohol": 6.1
+	}, {
+		"name": "Bayrisch Hell",
+		"date": "2019-05-17",
+		"description": "Im Maßkrug mit Weißwürsten der ideale Begleiter zum in den Sommer Süffeln.",
+		"gravity": "13,5",
+		"alcohol": 5.4
+	}, {
+		"name": "Waterkant Pilsener",
+		"date": "2019-06-07"
+	}, {
+		"name": "Sommer Gold",
+		"date": "2019-06-21",
+		"description": "Ein schlanker, fruchtiger Wegbegleiter durch den Abend im Garten.",
+		"gravity": "10,9",
+		"alcohol": 4.5
+	}, {
+		"name": "Hopfen Perle",
+		"date": "2019-07-12",
+		"description": "Intensives Pils Erlebnis: hochvergoren, sehr herb und etwas schlanker als das Pils, ein Durstlöscher mit 10,9% Stammwürze.",
+		"gravity": 10.9,
+		"alcohol": 4.5
+	}, {
+		"name": "Red Ale",
+		"date": "2019-07-26",
+		"description": "Kleene Keule vom Roten Wedding: süffig, fruchtig, geschmeidig im Abgang. Ein kantenfreies Malzbonbon.",
+		"gravity": 13.0,
+		"alcohol": 6
+	}, {
+		"name": "Amber Rocket",
+		"date": "2019-08-09",
+		"description": "KiezKingKnucklehead Stout – Ein amberfarbenes Stout mit Roggenmalz und fundamentalem Hopfenorchester im Hintergrund.",
+		"gravity": 13.9,
+		"alcohol": 5.5
+	}, {
+		"name": "Baltic Porter",
+		"date": "2019-08-30",
+		"description": "Für harte Hafenarbeiter, die die Ladung von Koggen löschen - und für Genießer, die harten Stoff abkönnen.",
+		"gravity": 16,
+		"alcohol": 6
+	}, {
+		"name": "Märzen",
+		"date": "2019-09-20",
+		"description": "Bernsteinfarbenes Festbier, zu genießen im Maßkrig mit Brezel & Weißwurst.",
+		"gravity": 13.5,
+		"alcohol": 5.5
+	}, {
+		"name": "Panke Gold 2.0",
+		"date": "2019-10-11",
+		"description": "Süffiger und kräftiger als das Original, mit der doppelten Menge CITRA-Hopfen gewürzt: eine Aromabombe.",
+		"gravity": 13,
+		"alcohol": 5.6
+	}, {
+		"name": "Böhmisches Kellerbier",
+		"date": "2019-10-25",
+		"description": "Schwejk würde es lieben: süffig und mild gehopft mit Saazer Hopfen.",
+		"gravity": 13.6,
+		"alcohol": 5.5
+	}, {
+		"name": "UrBadisch Pilsener",
+		"date": "2019-11-08"
+	}, {
+		"name": "Wedding Crossover WXO",
+		"date": "2019-11-22"
+	}, {
+		"name": "Alter Schwede",
+		"date": "2019-12-06",
+		"description": "Ein helles hochvergorenes Starkbier mit dominantem Hopfen.",
+		"gravity": 16,
+		"alcohol": 6.5
 	}
 ]
